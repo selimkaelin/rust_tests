@@ -10,16 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b5b96d1b-042f-4584-8ae6-6212891a7664" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/touringbuddy_rust.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cargo.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/csv_reader.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/csv.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/matrix_product.rs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,13 +50,14 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="org.rust.cargo.project.model.PROJECT_DISCOVERY" value="true" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Cargo.Expand touringbuddy_rust">
+  <component name="RunManager" selected="Cargo.Run touringbuddy_rust">
     <configuration name="Expand touringbuddy_rust" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
       <option name="command" value="expand --bin touringbuddy_rust --color=always --theme=GitHub --tests" />
       <option name="workingDirectory" value="file://$PROJECT_DIR$" />
@@ -93,8 +88,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Cargo.Expand touringbuddy_rust" />
         <item itemvalue="Cargo.Run touringbuddy_rust" />
+        <item itemvalue="Cargo.Expand touringbuddy_rust" />
       </list>
     </recent_temporary>
   </component>
@@ -112,7 +107,10 @@
       <updated>1610614067741</updated>
       <workItem from="1610614070420" duration="5690000" />
       <workItem from="1611247012540" duration="875000" />
-      <workItem from="1611379897484" duration="2485000" />
+      <workItem from="1611379897484" duration="3480000" />
+      <workItem from="1611383515515" duration="60000" />
+      <workItem from="1611638963406" duration="1690000" />
+      <workItem from="1611775266705" duration="2073000" />
     </task>
     <servers />
   </component>
